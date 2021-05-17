@@ -32,7 +32,7 @@ export default class Post extends React.Component {
                 </header>
                 {_.get(this.props, 'pageContext.frontmatter.image', null) && (
                 <div className="post-image">
-                  <img width="1280" height="" src={withPrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.image_alt', null)} />
+                  <img width="1280" height="850" src={withPrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.image_alt', null)} />
                 </div>
                 )}
                 <div className="post-content inner-sm">
